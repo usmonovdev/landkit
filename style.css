@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rovcha{
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.logo{
+    color: rgb(0, 89, 255);
+    font-size: 24px;
+}
+
+.buyNow{
+    width: 100px !important;
+    height: 40px;
+    background: rgb(0, 89, 255);
+    color: #fff;
+    border: none;
+    position: relative;
+    left: 200px;
+    transition: .25s;
+}
+
+.buyNow:hover{
+    transform: translateY(-5px);
+    background: rgb(8, 72, 192);
+    box-shadow: 0px 3px 10px rgba(5, 34, 87, 0.212);
+}
+
+.markaz{
+    cursor: pointer;
+}
+
+.markaz:hover{
+    color: rgb(0, 89, 255);
+}
+
+.sectionIkki h1 span{
+    color: rgb(0, 89, 255);
+    font-weight: 100;
+}
+
+.sectionIkki h1{
+    font-weight: 100;
+    position: relative;
+    top: 200px;
+    left: 155px;
+    line-height: 60px;
+    font-size: 48px;
+}
+
+.sectionIkki p{
+    position: relative;
+    top: 220px;
+    left: 155px;
+    font-size: 21px;
+    line-height: 30px;
+    color: #869ab8;
+}
+
+.buttonBir{
+    width: 170px;
+    height: 50px;
+    border: none;
+    position: relative;
+    top: 250px;
+    left: 155px;
+    margin-right: 500px;
+    background: #335eea;
+    color: #fff;
+    transition: .25s;
+}
+
+
+.buttonBir:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(11, 54, 133, 0.233);
+}
+
+.alohida{
+    width: 170px;
+    height: 50px;
+    border: none;
+    position: relative;
+    top: 250px;
+    left: 290px;
+    margin-right: 500px;
+    color: #335eea;
+    background: #335eea25;
+    transition: .25s;
+}
+
+.alohida:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(11, 54, 133, 0.075);
+}
+
+img{
+    width: 90%;
+    position: relative;
+    top: 150px;
+}
+
+.ramka{
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    /* opacity: 0; */
+    transition: .25s;
+}
+
+.markazLanding{
+    cursor: pointer;
+}
+
+.markazLanding:hover .ramka{
+    opacity: 1;
+}
